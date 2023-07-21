@@ -1,0 +1,44 @@
+/*-------------------*\
+
+        TEXT
+
+\*-------------------*/
+
+.title, .largetext, .text {
+    font-weight: bold;
+    text-align: center;
+}
+
+/*-------------------*\
+
+        PAGE
+
+\*-------------------*/
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.media {
+    border: 2px rgb(255, 255, 255) solid;
+    max-height: 700px;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body {
+    background-color: rgb(43, 43, 43);
+}
+
+* {
+    font-family: sans-serif;
+    color: white;
+}
+
+.top-card {
+    position: sticky;
+    top: 0;
+    background-color: rgb(121, 20, 20);
+}
