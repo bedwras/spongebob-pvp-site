@@ -41,4 +41,28 @@ body {
     position: sticky;
     top: 0;
     background-color: rgb(121, 20, 20);
+    overflow: hidden;
 }
+
+.scrollingtext {
+    text-align: right;
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -moz-animation: scrolling-text 25s linear infinite;
+    -webkit-animation: scrolling-text 25s linear infinite;
+    animation: scrolling-text 25s linear infinite;
+}
+
+@keyframes scrolling-text {
+    from {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+    to {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+  }
